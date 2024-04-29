@@ -1,0 +1,10 @@
+yabai -m config layout bsp
+
+yabai -m config mouse_follows_focus on
+yabai -m config mouse_modifier fn
+yabai -m mouse_drop_action swap
+
+yabai -m rule --add app="^Ajustes del Sistema$" manage=off
+yabai -m rule --add app="^Calculadora$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^QuickTime Player$" manage=off
